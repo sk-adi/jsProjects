@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f5f8;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.num{
+    font-size: 100px;
+    text-align: center;
+    height: 200px;
+    margin-top: 40px;
+}
+
+
+
+.btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    gap: 10px;
+    border: 1px solid black
+
+}
+
+
+
+.final{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
