@@ -19,13 +19,10 @@ const reset=document.getElementById("reset")
 //     }, 1000);
 // })
 
-
-start.addEventListener("click",()=>{
-    setInterval(myfunction,1000)
-    function myfunction(){
-        for(let i=0;i<61;i++){
-            const newnum=i+1
-            mywatch.textContent=newnum
-        }
-    }
+let counter=0
+start.addEventListener('click',()=>{
+    setInterval(()=>{
+        counter+=1;
+        mywatch.textContent=counter
+    },100)
 })
