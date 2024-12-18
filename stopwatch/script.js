@@ -20,9 +20,18 @@ const reset=document.getElementById("reset")
 // })
 
 let counter=0
+let intervalId=null;
+
+
 start.addEventListener('click',()=>{
+    if(!intervalId){intervalId=
     setInterval(()=>{
         counter+=1;
         mywatch.textContent=counter
-    },100)
+    },100)}
+})
+
+
+stop.addEventListener("click",()=>{
+    clearInterval(intervalId)
 })
