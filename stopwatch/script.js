@@ -8,17 +8,6 @@ const reset=document.getElementById("reset")
 
 
 
-
-
-
-// start.addEventListener("click",()=>{
-//     setInterval(() => {
-//         for(let i=0;i<61;i++){
-//         let newnum=i
-//         mywatch.textContent=newnum}
-//     }, 1000);
-// })
-
 let counter=0
 let intervalId=null;
 
@@ -34,4 +23,14 @@ start.addEventListener('click',()=>{
 
 stop.addEventListener("click",()=>{
     clearInterval(intervalId)
+    intervalId=null
+})
+
+    
+
+reset.addEventListener("click",()=>{
+    clearInterval(intervalId)
+    intervalId=null
+    counter=0;
+    mywatch.textContent=counter
 })
