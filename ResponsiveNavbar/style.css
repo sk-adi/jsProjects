@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: end;
+    height: 50px;
+    background-color: lemonchiffon;
+    font-size: 20px;
+    border: 1px solid green;
+
+}
+
+.logo {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.last {
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+}
+
+
+.rightPart {
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    padding-right: 20px;
+
+}
+
+
+.menutoggle {
+    display: none;
+    width: 40px;
+    border: none;
+    background-color: lemonchiffon;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+@media (max-width:768px) {
+    .top {
+        height: 200px;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menutoggle {
+        display: block;
+        font-size: 24px;
+    }
+
+
+
+    .rightPart {
+        display: none;
+    }
+
+
+    .mystyle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: end;
+        padding: 0;
+        border: 1px solid red;
+        width: 120px;
+    }
+
+    /*
+ 
+    .topstyle {
+        height: 200px;
+    } */
+
+}
+    a {
+        text-decoration: none;
+    }
