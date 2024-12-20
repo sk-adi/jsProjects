@@ -4,32 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDoList</title>
+    <title>TaskTracker</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
         <div class="heading">
-            <h1>ToDoList:Organize Your Day, Your Way.</h1>
+            <h1>ToDoList:Your day, your list, your success</h1>
         </div>
-        <div class="addItem">
-            <div class="inputarea">
-                <input type="text" name="enter item" id="item">
-            </div>
-            <div class="btn">
-                <button id="add">Add</button>
-            </div>
+        <div class="input">
+            <input type="text" placeholder="Enter Your Task Here" id="inputArea">
+            <button id="btn">Add</button>
         </div>
         <div class="list">
-            <ul id="thelist">
-            </ul>
+            <div class="mainList">
+                <table id="addeditem">
+                    <thead>
+                        <tr>
+                            <th class="sno">S.no</th>
+                            <th class="task">Task</th>
+                            <th>Done/Undone</th>
+                            <th>Delete Task</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div class="clear">
-            <button id="clearList">Clear List</button>
-        </div>
-        <script src="script.js"></script>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
