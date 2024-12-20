@@ -83,10 +83,9 @@ function updateSerialNumbers() {
 
     // Loop through each row and update the S.No (first <th>)
     rows.forEach((row, index) => {
-        const firstth = row.querySelector('th');  // Find the first <th> in the row
-        firstth.textContent = index + 1;  // Set the S.No to the new index (1-based)
+        const firstth = row.querySelector('th');  
+        firstth.textContent = index + 1;  
     });
 
 
 }
-
