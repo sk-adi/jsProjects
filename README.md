@@ -16,7 +16,12 @@ This repository contains multiple JavaScript projects that I am working on. Each
 ### 4. **ColorFlipper**
    A fun project that generates a random color every time the user clicks a button. The project focuses on changing styles dynamically and handling button clicks.
 
-### 5. **(More Projects Coming Soon...)**
+### 5. **To-Do List**
+   A to-do list application where users can add, mark as completed, and delete tasks. This project highlights the use of JavaScript for managing dynamic content and user interactions.
+
+   **Live View:** [To-Do List](https://todolist-sand-six.vercel.app/)
+
+### 6. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
