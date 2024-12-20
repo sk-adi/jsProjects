@@ -2,13 +2,6 @@ const btn = document.getElementById("btn")
 const tbody = document.getElementById("tbody")
 const inputArea = document.getElementById("inputArea");
 
-
-
-
-
-
-
-
 const listarr = [];
 
 //adding new task to the table
@@ -20,26 +13,15 @@ btn.addEventListener("click", () => {
         listarr.push(newtext)
         console.log(listarr.at(-1))
         inputArea.value = ''
-
-
-
         const newrow = document.createElement('tr')
         newrow.innerHTML = `
         <th>${listarr.length}</th>
         <th>${listarr.at(-1)}</th>
         <th><input type="checkbox" class='checkbox'></th>
         <th><button class="deleterow"><i class="fa fa-trash-o" style="font-size:24px"></i></button></th>`
-
-
-
         tbody.append(newrow)
     }
 })
-
-
-
-
-
 
 document.addEventListener("keydown", (event) => {
     if (!inputArea.value.trim() == '') {
@@ -49,20 +31,13 @@ document.addEventListener("keydown", (event) => {
             listarr.push(newtext)
             console.log(listarr.at(-1))
             inputArea.value = ''
-
-
             const newrow = document.createElement('tr')
             newrow.innerHTML = `
             <th>${listarr.length}</th>
             <th>${listarr.at(-1)}</th>
             <th><input type="checkbox" class='checkbox'></th>
             <th><button class="deleterow"><i class="fa fa-trash-o"></i></button></th>`
-
-
-
             tbody.append(newrow)
-
-
         }
     }
 })
@@ -81,7 +56,6 @@ tbody.addEventListener("click", (event) => {
             console.log(listarr)
             row.remove();
             updateSerialNumbers();
-
         }
     }
 
@@ -92,9 +66,7 @@ tbody.addEventListener("click", (event) => {
             row.classList.add('strikethrough')
             tbody.appendChild(row)
         }
-
-        else {
-            
+        else { 
             const uncheckedRows = Array.from(tbody.querySelectorAll("tr:not(.strikethrough)"));
             tbody.insertBefore(row, uncheckedRows[0] || null)
             row.classList.remove('strikethrough')
@@ -102,17 +74,7 @@ tbody.addEventListener("click", (event) => {
         }
         updateSerialNumbers()
     }
-
-
-
-
-
-
-
 });
-
-
-
 
 
 function updateSerialNumbers() {
