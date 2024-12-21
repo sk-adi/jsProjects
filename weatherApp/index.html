@@ -22,37 +22,50 @@
                 <div class="temp" id="temp">Temperature</div>
                 <div class="icon" id="icon"><img src=`https://openweathermap.org/img/wn/${id}@2x.png` alt=""></div>
                 <div class="coords">
-                    <p id="cityLat"></p>
-                    <p id="cityLong"></p>
+                    <p id="cityLat">Latitude:</p>
+                    <p id="cityLong">Longitude:</p>
                 </div>
             </div>
         </div>
-
         <div class="middle">
-            <div class="minMax">
-                <p id="min">min</p>
-                <p id="max">max</p>
-            </div>
-            <div class="riseset">
-                <p id="sunrise">sunrise</p>
-                <p id="sunset">sunset</p>
-            </div>
-            <div class="Speed">
-                <p id='windSpeed'>Wind Speed</p>
-                <p id="dir">Wind Direction</p>
-            </div>
-            <div class="date">
-                <p id="thedate">Time</p>
-            </div>
-            
-        </div>
-        <div class="bottom">
-            <div id="humidity">Humidity</div>
-            <div id="pressure">sunrise</div>
-            <div id="visibility">Visibility</div>
-            <div id="cloud">Cloud</div>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Min(°C)</th>
+                        <th>Sunrise</th>
+                        <th>Wind Speed</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="min"></td>
+                        <td id="sunrise"></td>
+                        <td id='windSpeed'></td>
+                        <td id="thedate"></td>
+                    </tr>
+
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Max(°C)</th>
+                        <th>Sunset</th>
+                        <th>Wind Direction</th>
+                        <th>humidity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="max"></td>
+                        <td id="sunset"></td>
+                        <td id="dir"></td>
+                        <td id="humidity"></td>
+                    </tr>
+                </tbody>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 

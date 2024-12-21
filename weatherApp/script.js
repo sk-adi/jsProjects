@@ -12,9 +12,6 @@ const windSpeed = document.getElementById("windSpeed")
 const dir = document.getElementById("dir")
 const thedate = document.getElementById("thedate")
 const humidity = document.getElementById("humidity")
-const pressure = document.getElementById("pressure")
-const visibility = document.getElementById("visibility")
-const cloud = document.getElementById("cloud")
 const citycountry = document.getElementById("citycountry")
 
 const apikey = "31d508e9fb2722256c535eb6a1fbc094"
@@ -87,17 +84,14 @@ function myweather(lat, lon) {
             citycountry.textContent = `${data.name}, ${data.sys.country}`;
             cityLat.textContent = `Latitude: ${data.coord.lat}`;
             cityLong.textContent = `Longitude: ${data.coord.lon}`;
-            min.textContent = `Min: ${data.main.temp_min}°C`;
-            max.textContent = `Max: ${data.main.temp_max}°C`;
-            humidity.textContent = `Humidity: ${data.main.humidity}%`;
-            pressure.textContent = `Pressure: ${data.main.pressure} hPa`;
-            visibility.textContent = `Visibility: ${data.visibility / 1000} km`;
-            cloud.textContent = `Cloud: ${data.clouds.all}%`;
-            windSpeed.textContent = `Wind Speed: ${data.wind.speed} m/s`;
-            dir.textContent = `Wind Direction: ${getWindDirection(data.wind.deg)} (${data.wind.deg}°)`;
-            sunrise.textContent = `Sunrise: ${formatTime(data.sys.sunrise)}`;
-            sunset.textContent = `Sunset: ${formatTime(data.sys.sunset)}`;
-            thedate.textContent = `Date: ${new Date(data.dt * 1000).toLocaleDateString()}`;
+            min.textContent = `${data.main.temp_min}°C`;
+            max.textContent = `${data.main.temp_max}°C`;
+            humidity.textContent = `${data.main.humidity}%`;
+            windSpeed.textContent = `${data.wind.speed} m/s`;
+            dir.textContent = `${getWindDirection(data.wind.deg)} (${data.wind.deg}°)`;
+            sunrise.textContent = `${formatTime(data.sys.sunrise)}`;
+            sunset.textContent = `${formatTime(data.sys.sunset)}`;
+            thedate.textContent = `${new Date(data.dt * 1000).toLocaleDateString()}`;
             icon.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="${data.weather[0].description}" />`;
         })
         .catch(error => {
