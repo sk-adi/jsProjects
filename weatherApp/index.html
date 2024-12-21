@@ -11,31 +11,46 @@
 <body>
     <div class="container">
         <div class="input">
-            <input type="text" class="enter" id="enter">
+            <input type="text" class="enter" id="enter" placeholder="Enter City Name">
             <button class="btn" id="btn">search</button>
         </div>
         <div class="main">
             <div class="city">
-                <h2>city</h2>
+                <h2 id="citycountry">City</h2>
             </div>
             <div class="tempsection">
-                <div class="coords">coords</div>
                 <div class="temp" id="temp">Temperature</div>
-                <div class="icon">icon</div>
+                <div class="icon" id="icon"><img src=`https://openweathermap.org/img/wn/${id}@2x.png` alt=""></div>
+                <div class="coords">
+                    <p id="cityLat"></p>
+                    <p id="cityLong"></p>
+                </div>
             </div>
         </div>
 
         <div class="middle">
-            <div class="minMax">minMax</div>
-            <div class="sunrise">sunrise</div>
-            <div class="windSpeed">winsSpeed</div>
-            <div class="date">date</div>
+            <div class="minMax">
+                <p id="min">min</p>
+                <p id="max">max</p>
+            </div>
+            <div class="riseset">
+                <p id="sunrise">sunrise</p>
+                <p id="sunset">sunset</p>
+            </div>
+            <div class="Speed">
+                <p id='windSpeed'>Wind Speed</p>
+                <p id="dir">Wind Direction</p>
+            </div>
+            <div class="date">
+                <p id="thedate">Time</p>
+            </div>
+            
         </div>
         <div class="bottom">
-            <div class="minMax">minMax</div>
-            <div class="sunrise">sunrise</div>
-            <div class="windSpeed">winsSpeed</div>
-            <div class="date">date</div>
+            <div id="humidity">Humidity</div>
+            <div id="pressure">sunrise</div>
+            <div id="visibility">Visibility</div>
+            <div id="cloud">Cloud</div>
         </div>
     </div>
     <script src="script.js"></script>
