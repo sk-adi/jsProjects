@@ -21,7 +21,13 @@ This repository contains multiple JavaScript projects that I am working on. Each
 
    **Live View:** [To-Do List](https://todolist-sand-six.vercel.app/)
 
-### 6. **(More Projects Coming Soon...)**
+### 6. **Weather App**
+   My first project integrating an API! This weather app fetches real-time weather data using the OpenWeatherMap API. Users can search for a city to view its temperature, sunrise, sunset, wind speed, and more.
+
+   **Live View:** [Weather App](https://tinyurl.com/mry8mmzn)
+   **GitHub Repository:** [Weather App Code](https://github.com/sk-adi/jsProjects)
+
+### 7. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
@@ -29,3 +35,5 @@ This repository contains multiple JavaScript projects that I am working on. Each
 - HTML
 - CSS
 - JavaScript
+- OpenWeatherMap API
+
