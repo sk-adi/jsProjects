@@ -1,7 +1,3 @@
-Here's the updated README file, including the new **Tip Calculator** project and a link to the live view:
-
----
-
 # jsProjects
 
 This repository contains multiple JavaScript projects that I am working on. Each project is designed to showcase various skills in JavaScript, including DOM manipulation, event handling, and building interactive features. New projects will be added regularly as I continue to learn and improve my JavaScript skills.
@@ -37,7 +33,13 @@ This repository contains multiple JavaScript projects that I am working on. Each
    **Live View:** [Tip Calculator](https://tipcalculator-seven-mu.vercel.app/)  
    **GitHub Repository:** [Tip Calculator Code](https://github.com/sk-adi/jsProjects)
 
-### 8. **(More Projects Coming Soon...)**
+### 8. **Dice Roll Simulator** *(New Project)*
+   A fun interactive Dice Roll simulator where users can roll a die and view the result. The project showcases DOM manipulation, event handling, and dynamic content updates.
+
+   **Live View:** [Dice Roll Simulator](https://diceroll-ten.vercel.app/)  
+   **GitHub Repository:** [Dice Roll Code](https://github.com/sk-adi/jsProjects)
+
+### 9. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
@@ -45,4 +47,4 @@ This repository contains multiple JavaScript projects that I am working on. Each
 - HTML
 - CSS
 - JavaScript
--OpenWeatherMap API
+- OpenWeatherMap API
