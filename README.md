@@ -1,3 +1,7 @@
+Here's the updated README file, including the new **Tip Calculator** project and a link to the live view:
+
+---
+
 # jsProjects
 
 This repository contains multiple JavaScript projects that I am working on. Each project is designed to showcase various skills in JavaScript, including DOM manipulation, event handling, and building interactive features. New projects will be added regularly as I continue to learn and improve my JavaScript skills.
@@ -24,10 +28,16 @@ This repository contains multiple JavaScript projects that I am working on. Each
 ### 6. **Weather App**
    My first project integrating an API! This weather app fetches real-time weather data using the OpenWeatherMap API. Users can search for a city to view its temperature, sunrise, sunset, wind speed, and more.
 
-   **Live View:** [Weather App](https://tinyurl.com/mry8mmzn)
+   **Live View:** [Weather App](https://tinyurl.com/mry8mmzn)  
    **GitHub Repository:** [Weather App Code](https://github.com/sk-adi/jsProjects)
 
-### 7. **(More Projects Coming Soon...)**
+### 7. **Tip Calculator** *(New Project)*
+   A simple tip calculator that allows users to input their bill amount and tip percentage to calculate the total tip amount. This project demonstrates basic form handling, input validation, and simple arithmetic operations in JavaScript.
+
+   **Live View:** [Tip Calculator](https://tipcalculator-seven-mu.vercel.app/)  
+   **GitHub Repository:** [Tip Calculator Code](https://github.com/sk-adi/jsProjects)
+
+### 8. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
@@ -35,5 +45,4 @@ This repository contains multiple JavaScript projects that I am working on. Each
 - HTML
 - CSS
 - JavaScript
-- OpenWeatherMap API
-
+-OpenWeatherMap API
