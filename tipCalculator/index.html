@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipCalculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Tip Calculator</h1>
+      </div>
+      <div class="info">
+        <p>Enter the bill amount and tip percentage to calculate the total</p>
+      </div>
+      <div class="bill_amount">
+        <div class="billpara">
+          <h2>Bill amount</h2>
+        </div>
+        <div class="billarea">
+          <input
+            id="billinput"
+            type="number"
+            min="1"
+            placeholder="Enter the amount"
+            required
+          />
+          <span id="billerror" style="color: red;"></span>
+        </div>
+      </div>
+      <div class="tipamount">
+        <div class="tipara">
+          <h2>Tip percentage</h2>
+        </div>
+        <div class="tiparea">
+          <input
+            id="tipinput"
+            type="number"
+            min="1"
+            placeholder="Enter the amount"
+            required
+          />
+          <span id="tiperror" style="color: red;"></span>
+        </div>
+      </div>
+      <div class="submit">
+        <button type="button" id="calculate">Calculate</button>
+      </div>
+      <div class="totaltip">
+        <div class="readonly">
+          <h2>
+            <input id="finalamount" type="text" value="Final amount" />
+          </h2>
+        </div>
+      </div>
+      <div id="contact">
+        <p>Connect with the developer:</p>
+        <a href="https://github.com/sk-adi" target="_blank" class="contact-link">Github</a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
