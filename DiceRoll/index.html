@@ -9,15 +9,19 @@
 <body>
     <div class="container">
         <h1>Dice Roll Simulator</h1>
+        <p>Contact Developer <a href="https://github.com/sk-adi" class="contact" target="_blank">Github</a></p>
         <div class="dice">
-            <div class="mydice">&#9856;</div>
+            <div id="mydice" class="mydice">&#9856;</div>
         </div>
-        
-        <button class="rollBtn">Roll Dice</button>
+        <div class="btn">
+        <button id ="rollBtn"class="rollBtn">Roll Dice</button>
+        <button id="reset">Reset</button>
+    </div>
         <div class="history">
             <h2>Roll history</h2>
-            <ul class="result"></ul>
+            <ul id="result" class="result"></ul>
         </div>
+        
     </div>
     
 </body>

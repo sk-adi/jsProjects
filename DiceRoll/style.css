@@ -20,11 +20,11 @@ body {
 .container {
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
-    padding: 80px;
+    padding: 40px 80px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    max-width: 675px; /* Increased width to 1.5 times */
-    min-height: 600px; /* Doubled height */
+    max-width: 675px;
+    min-height: 735px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,17 +33,25 @@ body {
 /* Heading */
 h1 {
     font-size: 28px;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
 }
 
 /* Dice */
 .dice {
     font-size: 100px;
-    margin: 5px 0;
+}
+
+/* Button Container */
+.btn {
+    display: flex;
+    justify-content: space-around;  /* Spaces buttons evenly */
+    margin-top: 20px;
+    width: 100%;  /* Ensures buttons align well in the container */
 }
 
 /* Button */
-.rollBtn {
+.rollBtn,
+#reset {
     background: #ff9800;
     color: white;
     border: none;
@@ -52,9 +60,12 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    width: 45%;  /* Ensures buttons fit side by side */
+    margin: 5px;  /* Adds space between buttons */
 }
 
-.rollBtn:hover {
+.rollBtn:hover,
+#reset:hover {
     background: #e68900;
 }
 
@@ -62,24 +73,85 @@ h1 {
 .history {
     margin-top: 20px;
     text-align: left;
-    width: 100%; /* Ensures history aligns properly */
-    max-height: 400px; /* Doubled height to fit more history */
-    overflow-y: auto; /* Scrolls if too long */
+    width: 100%;
+    max-height: 300px; /* Fixed max height */
+    overflow-y: auto;  /* Scrollable when content exceeds height */
+    border-top: 2px solid #fff; /* Optional: visual divider */
+    padding-top: 10px; /* Optional: space before history */
 }
 
+/* History Heading */
 .history h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 22px; /* Increased size */
+    margin-bottom: 15px; /* Added more space below */
 }
 
+/* History List */
 .result {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
+/* History List Item */
 .result li {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 8px;
-    margin: 5px 0;
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3); /* Lighter background for better visibility */
+    padding: 2px 15px; /* Increased padding for larger clickable area */
+    margin: 4px 0; /* Added more space between list items */
+    font-size: 24px; /* Increased font size */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    max-width: 100%;
+    word-wrap: break-word;  /* Ensures long text wraps properly */
+    line-height: 1; /* Makes the line height a bit taller */
+    display: flex;  /* Use flex to align items */
+    align-items: center;  /* Vertically align the text and dice */
+    justify-content: space-between; /* Pushes text to the left and dice to the right */
+}
+
+/* Dice Animation */
+#mydice {
+    font-size: 100px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+/* Keyframes for dice rolling */
+@keyframes rollDice {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Specifically increase dice size in the history list */
+.result li span {
+    font-size: 40px; /* Make dice Unicode larger in the history */
+    margin-left: 10px; /* Add space between "Roll" text and the dice */
+}
+
+/* Link Styling for Contact */
+a {
+    color: white;
+}
+
+.contact a {
+    color: #ff9800;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact a:hover {
+    color: #e68900;
+    text-decoration: underline;
 }
