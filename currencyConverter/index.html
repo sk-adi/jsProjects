@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Currency Converter</h1>
+        <p>get the lastest exchange rate</p>
+      </div>
+      <div class="input">
+        <div class="fromUnit">
+          <select name="From" id="convertFrom">From</select>
+        </div>
+        <input id="fromcurrency" type="text" value="1"/>
+      </div>
+      <div class="result">
+        <div class="toUnit">
+          <select name="" id="convertTo">To</select>
+        </div>
+        <input id="tocurrency" type="text" readonly />
+      </div>
+      <button id="convert">Convert</button>
+      <div class="currentrate">
+        <p id="unitConversion">current Exchange rate of single unit</p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

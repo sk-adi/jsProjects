@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dark Background */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212; /* Dark background for eye comfort */
+    color: white;
+  }
+  
+  /* Main Container */
+  .container {
+    background: #1e1e1e; /* Dark gray container */
+    padding: 25px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  /* Heading */
+  .heading h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f5f5f5; /* Light gray text */
+  }
+  
+  .heading p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #bdbdbd; /* Soft gray text */
+  }
+  
+  /* Input Section */
+  .input,
+  .result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #292929; /* Slightly lighter dark background */
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+  }
+  
+  /* Select Dropdown */
+  select {
+    padding: 8px;
+    border: none;
+    background: #333;
+    color: #f5f5f5;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #444;
+  }
+  
+  option {
+    background: #444;
+    color: white;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100px;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #444;
+  }
+  
+  input[readonly] {
+    opacity: 0.7;
+    background: #292929;
+  }
+  
+  /* Convert Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #ff9800; /* Orange button for contrast */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #e68900;
+  }
+  
+  /* Current Rate */
+  .currentrate {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bdbdbd;
+  }
+  
