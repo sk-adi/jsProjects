@@ -39,7 +39,13 @@ This repository contains multiple JavaScript projects that I am working on. Each
    **Live View:** [Dice Roll Simulator](https://diceroll-ten.vercel.app/)  
    **GitHub Repository:** [Dice Roll Code](https://github.com/sk-adi/jsProjects)
 
-### 9. **(More Projects Coming Soon...)**
+### 9. **Currency Converter** *(New Project)*
+   A real-time currency converter built using an API. This project allows users to convert between various currencies using the latest exchange rates. There are still many areas for improvement, which I will continue working on in the future.
+
+   **Live View:** [Currency Converter](https://currencyconverter-cyan-six.vercel.app/)  
+   **GitHub Repository:** [Currency Converter Code](https://github.com/sk-adi/jsProjects)
+
+### 10. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
@@ -47,4 +53,4 @@ This repository contains multiple JavaScript projects that I am working on. Each
 - HTML
 - CSS
 - JavaScript
-- OpenWeatherMap API
+- FreeCurrencyAPI
