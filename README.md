@@ -45,7 +45,13 @@ This repository contains multiple JavaScript projects that I am working on. Each
    **Live View:** [Currency Converter](https://currencyconverter-cyan-six.vercel.app/)  
    **GitHub Repository:** [Currency Converter Code](https://github.com/sk-adi/jsProjects)
 
-### 10. **(More Projects Coming Soon...)**
+### 10. **Note-Taking App** *(New Project)*
+   A full-featured Note-Taking App where users can add, edit, and delete notes with a simple and clean interface. The design is fully responsive, ensuring an optimal experience across all devices. Future updates may include local storage functionality for persistent notes.
+
+   **Live View:** [Note-Taking App](https://note-app-mu-five.vercel.app/)  
+   **GitHub Repository:** [Note-Taking App Code](https://github.com/sk-adi/jsProjects)
+
+### 11. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
