@@ -4,8 +4,6 @@ const more = document.querySelector(".more");
 const addCard = document.getElementById("addCard");
 const theCard = document.querySelector(".theCard");
 
-const newbox = cards;
-
 //new card generator function
 function newCardGenerator() {
   //creating new div element for new card
@@ -26,15 +24,20 @@ function newCardGenerator() {
   newSingleCard.append(newTextArea, newButton);
 }
 
+//adding card upon click by user
 addCard.addEventListener("click", () => {
   newCardGenerator();
 });
 
+
+//functionality to delet card upon click by user
+
 cards.addEventListener("click",(event)=>{
     if(event.target.classList.contains("more")){
-        const confirmDelete=confirm("are you sure you want to delete")
+        const confirmDelete=confirm("are you sure you want to delete?")
         if(confirmDelete){
             event.target.parentElement.remove()
         }
     }
 }) 
+
