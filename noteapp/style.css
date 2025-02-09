@@ -125,3 +125,31 @@ body {
 .container::-webkit-scrollbar-thumb:hover {
     background: #777;
 }
+
+/* Delete Button (Trash Icon) */
+.more {
+    align-self: flex-end;
+    background: #ff4d4d; /* Red circular background */
+    border: none;
+    color: #fff; /* White trash icon */
+    font-size: 18px;
+    cursor: pointer;
+    width: 36px;  /* Circular size */
+    height: 36px;
+    border-radius: 50%; /* Makes it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.more:hover {
+    background: #ff1a1a; /* Darker red on hover */
+    transform: scale(1.1); /* Slightly enlarges */
+}
+
+/* Click effect */
+.more:active {
+    transform: scale(1); /* Shrinks back */
+}

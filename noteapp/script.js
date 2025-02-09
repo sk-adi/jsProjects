@@ -20,7 +20,7 @@ function newCardGenerator() {
   //new button for new card
   const newButton = document.createElement("button");
   newButton.setAttribute("class", "more");
-  newButton.innerHTML = "&#8942";
+  newButton.innerHTML = "&#128465;";
   //appending element at their respective position
   cards.append(newSingleCard);
   newSingleCard.append(newTextArea, newButton);
@@ -29,3 +29,12 @@ function newCardGenerator() {
 addCard.addEventListener("click", () => {
   newCardGenerator();
 });
+
+cards.addEventListener("click",(event)=>{
+    if(event.target.classList.contains("more")){
+        const confirmDelete=confirm("are you sure you want to delete")
+        if(confirmDelete){
+            event.target.parentElement.remove()
+        }
+    }
+}) 
