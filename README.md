@@ -13,6 +13,9 @@ This repository contains multiple JavaScript projects that I am working on. Each
 ### 3. **Counter**
    A simple counter app where users can increment, decrement, or reset a counter value. The project showcases basic DOM manipulation and event listeners.
 
+   **Live View:** [Counter App](https://couterapp-lovat.vercel.app/)
+   **GitHub Repository:** [Weather App Code](https://github.com/sk-adi/jsProjects)
+
 ### 4. **ColorFlipper**
    A fun project that generates a random color every time the user clicks a button. The project focuses on changing styles dynamically and handling button clicks.
 
@@ -20,6 +23,7 @@ This repository contains multiple JavaScript projects that I am working on. Each
    A to-do list application where users can add, mark as completed, and delete tasks. This project highlights the use of JavaScript for managing dynamic content and user interactions.
 
    **Live View:** [To-Do List](https://todolist-sand-six.vercel.app/)
+   **GitHub Repository:** [Weather App Code](https://github.com/sk-adi/jsProjects)
 
 ### 6. **Weather App**
    My first project integrating an API! This weather app fetches real-time weather data using the OpenWeatherMap API. Users can search for a city to view its temperature, sunrise, sunset, wind speed, and more.
@@ -54,12 +58,8 @@ This repository contains multiple JavaScript projects that I am working on. Each
 ### 11. **Image Slide** *(New Project)*
    A simple image slider built with vanilla JavaScript. Users can navigate through images by clicking left and right buttons. This project demonstrates event handling, DOM manipulation, and smooth CSS transitions for a seamless user experience.
 
-   **Features:**
-   - Users can click the left or right buttons to slide between images.
-   - Smooth transitions between images.
-   - Fully responsive design.
-   - Uses vanilla JavaScript, no external libraries required.
 
+   **Live View:** [Image Slider](https://imageslider-chi.vercel.app/)
    **GitHub Repository:** [Image Slide Code](https://github.com/sk-adi/jsProjects)
 
 ### 12. **(More Projects Coming Soon...)**
