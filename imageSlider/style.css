@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    height: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #F5DEB3
+
+} 
+
+    
+
+#container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0.1px 5px 5px 1px rgba(0,0,0.2,0.2);
+}
+
+#left, #right{
+    background: transparent;
+    border: none;
+    color: gainsboro;
+    font-weight: bold;
+
+
+
+}
+
+#left:hover,#right:hover{
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+#image{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+     position: absolute;
+    z-index: -1;
+}
