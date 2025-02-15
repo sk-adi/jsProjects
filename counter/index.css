@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f1f5f8;
+    background-color: #FFF2C2
 }
 
 h1{
     font-size: 100px;
+    text-align: center;
+}
+
+p{
     text-align: center;
 }
 
@@ -28,8 +32,12 @@ h1{
     font-size: 20px;
     text-align: center;
     gap: 10px;
-    border: 1px solid black
+    border: none;
 
+}
+
+.btn:hover{
+    transform: scale(1.05);
 }
 
 
@@ -40,4 +48,22 @@ h1{
     margin-right: auto;
     display: flex;
     justify-content: space-evenly;
+}
+
+#decrease{
+    background-color: red;
+    color: white;
+
+
+}
+
+
+#increase{
+    background-color: green;
+    color: white;
+}
+
+#reset{
+    background-color: gray;
+    color: white;
 }
