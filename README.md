@@ -51,7 +51,18 @@ This repository contains multiple JavaScript projects that I am working on. Each
    **Live View:** [Note-Taking App](https://note-app-mu-five.vercel.app/)  
    **GitHub Repository:** [Note-Taking App Code](https://github.com/sk-adi/jsProjects)
 
-### 11. **(More Projects Coming Soon...)**
+### 11. **Image Slide** *(New Project)*
+   A simple image slider built with vanilla JavaScript. Users can navigate through images by clicking left and right buttons. This project demonstrates event handling, DOM manipulation, and smooth CSS transitions for a seamless user experience.
+
+   **Features:**
+   - Users can click the left or right buttons to slide between images.
+   - Smooth transitions between images.
+   - Fully responsive design.
+   - Uses vanilla JavaScript, no external libraries required.
+
+   **GitHub Repository:** [Image Slide Code](https://github.com/sk-adi/jsProjects)
+
+### 12. **(More Projects Coming Soon...)**
    I am continuously adding new projects to this repository. Stay tuned for more fun and interactive JavaScript applications!
 
 ## Technologies Used
@@ -60,3 +71,4 @@ This repository contains multiple JavaScript projects that I am working on. Each
 - CSS
 - JavaScript
 - FreeCurrencyAPI
+
